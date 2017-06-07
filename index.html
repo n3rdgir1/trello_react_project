@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CG: Trello Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans+Condensed:300,700|Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <meta content="width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes" name="viewport">
+</head>
+
+<body>
+
+    <div class="sidebar">
+
+        <div id="add-card-form">
+            <div class="form-title">New Card</div>
+            <input id="title-text" type="text" />
+            <input id="description-text" type="text" />
+            <button class="add-card">+</button>
+        </div>
+
+    </div>
+
+    <div class="main">
+
+        <div id="up-next" class="card-column">
+            <div class="card-column-title">Up Next</div>
+            <div class="card-list">
+                <!-- TODO: fill with javascript -->
+                <div class="card">
+                    <div class="title">Take React Course</div>
+                    <div class="description">code on code on code on code...</div>
+                    <div class="actions">
+                        <button class="delete-card">X</button>
+                        <button class="complete-card">></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="done" class="card-column">
+            <div class="card-column-title">Done</div>
+            <div class="card-list">
+                <!-- TODO: fill with javascript -->
+                <div class="card">
+                    <div class="title">Take React Course</div>
+                    <div class="description">code on code on code on code...</div>
+                    <div class="actions">
+                        <button class="delete-card">X</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src='assets/card.js'></script>
+    <script src='assets/main.js'></script>
+</body>
+
+</html>
