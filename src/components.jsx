@@ -5,7 +5,7 @@ import React from 'react';
 /* Column Component */
 class CardColumn extends React.Component {
     render() {
-        return (<div></div>);
+      return (<div><span>Hello</span></div>);
     }
 }
 
